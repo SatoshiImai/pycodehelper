@@ -9,3 +9,4 @@ pylint
 flake8
 check-manifest
 pandas
+python-dateutil
