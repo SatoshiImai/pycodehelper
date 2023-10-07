@@ -1,5 +1,5 @@
-PYTHON_VER			:= 3.11.5
-VENV				:= $(PYTHON_VER)-template
+PYTHON_VER			:= 3.11.6
+VENV				:= $(PYTHON_VER)-pycodehelper
 
 test_all:
 	@if [ -e htmlcov ]; then\
