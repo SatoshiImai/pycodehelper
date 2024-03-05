@@ -1,4 +1,4 @@
-PYTHON_VER			:= 3.11.6
+PYTHON_VER			:= 3.11.8
 VENV				:= $(PYTHON_VER)-pycodehelper
 
 test_all:
