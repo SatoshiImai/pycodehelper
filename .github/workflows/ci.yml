@@ -71,7 +71,7 @@ jobs:
           flake8 --ignore=${{ env.flake8_ignore }} --max-complexity=${{ env.max_complexity }} --max-line-length=${{ env.max_line_length }} --exclude=.svn,CVS,.bzr,.hg,.git,__pycache__,.tox,.eggs,*.egg,nowcast --output-file=flake8.txt .
 
       - name: flake8 report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: code-flake8
           path: flake8.txt
