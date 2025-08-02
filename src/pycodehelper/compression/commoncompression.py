@@ -1,9 +1,8 @@
-# coding:utf-8
-# ---------------------------------------------------------------------------
-# __author__ = 'Satoshi Imai'
-# __credits__ = ['Satoshi Imai']
-# __version__ = '0.9.0'
-# ---------------------------------------------------------------------------
+"""
+    __author__ = 'Satoshi Imai'
+    __credits__ = ['Satoshi Imai']
+    __version__ = '0.9.0'
+"""
 
 import bz2
 import filecmp
